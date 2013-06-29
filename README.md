@@ -1,6 +1,14 @@
-js-observer
+js-attr-observer
 ===========
 
-A JavaScript library that attempts to provide cross-browser support for MutationObserver.
+Library that attempts to provide cross-browser support for MutationObserver.
 
-Demonstration: http://jsfiddle.net/qm6m4/
+Supports:
+---------
+
+ - **ObserveAttrChange**
+
+Use:
+----
+
+<code>ObserveAttrChange(element, attr, callback);</code>
